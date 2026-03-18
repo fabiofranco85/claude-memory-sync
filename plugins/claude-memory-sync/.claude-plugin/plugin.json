@@ -1,0 +1,9 @@
+{
+  "name": "claude-memory-sync",
+  "version": "1.0.0",
+  "description": "Keeps Claude's project memory files (CLAUDE.md, .claude/rules/*.md) synchronized with the actual state of the project.",
+  "author": {
+    "name": "Fabio Franco"
+  },
+  "skills": "./skills"
+}

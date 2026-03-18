@@ -1,0 +1,15 @@
+{
+  "name": "claude-memory-sync",
+  "owner": {
+    "name": "Fabio Franco",
+    "email": "fabiofranco@f2tecnologia.com"
+  },
+  "plugins": [
+    {
+      "name": "claude-memory-sync",
+      "source": "./plugins/claude-memory-sync",
+      "description": "Keeps Claude's project memory files (CLAUDE.md, .claude/rules/*.md) synchronized with the actual state of the project. Detects changes since the last memory update, verifies every affected memory file, removes stale content, adds new information, and performs a final consistency review.",
+      "version": "1.0.0"
+    }
+  ]
+}
